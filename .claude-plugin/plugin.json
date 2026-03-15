@@ -1,0 +1,19 @@
+{
+  "name": "digic-chip-skill",
+  "description": "数字芯片开发标准库插件，提供远端 RTL 编译、VCS 仿真、FSDB 波形导出与 fsdbreport 波形摘要分析等可复用技能。",
+  "version": "0.1.0",
+  "author": {
+    "name": "biquanha"
+  },
+  "repository": "https://github.com/biquanha/digic-chip-skill",
+  "homepage": "https://github.com/biquanha/digic-chip-skill#readme",
+  "license": "MIT",
+  "keywords": [
+    "digital-chip",
+    "rtl",
+    "vcs",
+    "verdi",
+    "fsdb",
+    "eda"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "biquanha",
+  "owner": {
+    "name": "biquanha"
+  },
+  "plugins": [
+    {
+      "name": "digic-chip-skill",
+      "source": "./",
+      "description": "数字芯片开发标准库插件，包含远端 RTL 编译、VCS 仿真、FSDB 波形分析等技能。",
+      "version": "0.1.0"
+    }
+  ]
+}

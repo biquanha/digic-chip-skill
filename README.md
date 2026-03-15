@@ -1,5 +1,7 @@
 # 数字芯片开发标准库
 
+**当前版本：0.1.0**
+
 这是一个面向数字芯片研发场景的标准化技能库与流程库。
 
 当前已沉淀章节：
@@ -10,3 +12,22 @@
 - `commands/`：高频命令模板
 - `docs/`：使用说明与环境说明
 - `scripts/`：仓库级辅助脚本
+
+
+## 安装
+
+```bash
+# 添加插件市场
+/plugin marketplace add biquanha/digic-chip-skill
+# 然后安装插件
+/plugin install digic-chip-skill@biquanha
+```
+
+如果需要开发分支，可使用：
+
+```bash
+/plugin marketplace add biquanha/digic-chip-skill#dev
+```
+
+当前插件内置章节：
+- `skills/rtl-remote-vcs-wave`

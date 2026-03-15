@@ -10,3 +10,9 @@
 - `commands/`：高频命令模板
 - `docs/`：使用说明与环境说明
 - `scripts/`：仓库级辅助脚本
+
+
+## 安装方式
+
+- Codex：见 `docs/install-for-codex.md`
+- Claude：见 `docs/install-for-claude.md`

@@ -56,3 +56,18 @@ python3 skills/rtl-remote-vcs-wave/scripts/validate_skill.py --project /tmp/demo
 - 校验通过项
 - 未完成替换项
 - 需要用户补充的 DUT 接口/协议信息
+
+
+## 动态校验
+
+当远端环境可用时，建议继续执行动态校验：
+
+```bash
+bash skills/rtl-remote-vcs-wave/scripts/run_remote_uvm_smoke.sh   --remote eda01   --workdir /nfs/home/USER/project/demo_fifo   --testname smoke_test
+```
+
+动态校验重点验证：
+- 远端环境变量是否带起
+- `make comp` / `make sim` 是否成立
+- `simv`、`tb.fsdb` 是否生成
+- UVM 错误统计与 scoreboard 摘要是否满足通过条件

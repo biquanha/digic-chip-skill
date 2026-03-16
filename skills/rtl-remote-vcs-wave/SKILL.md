@@ -139,6 +139,7 @@ testbench 中应使用：
 
 ### 基础远端流程
 - 执行脚本：`scripts/run_remote_vcs_fsdb.sh`
+- 动态验收脚本：`scripts/run_remote_uvm_smoke.sh`
 - 最小 Makefile 示例：`assets/example-minimal/Makefile`
 - 远端环境说明：`references/remote-env.md`
 - 典型命令与输出：`references/示例命令.md`
@@ -152,6 +153,7 @@ testbench 中应使用：
 - 参考模型与计分板：`references/verification-flow/参考模型与计分板设计.md`
 - RAL 接入规划：`references/verification-flow/RAL接入规划.md`
 - 真实项目接入示例：`references/verification-flow/真实项目接入示例.md`
+- 远端动态验收：`references/verification-flow/远端动态验收.md`
 
 ## 输出要求
 

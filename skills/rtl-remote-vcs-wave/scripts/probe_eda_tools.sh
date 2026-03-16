@@ -27,7 +27,7 @@ done
 
 run_probe() {
   source /etc/profile >/dev/null 2>&1 || true
-  echo "[INFO] host=$(hostname 2>/dev/null || uname -n)"
+  echo "[INFO] host=$(/bin/hostname 2>/dev/null || uname -n)"
   echo "[INFO] date=$(date '+%F %T' 2>/dev/null || true)"
   echo
   for tool in "${TOOLS[@]}"; do

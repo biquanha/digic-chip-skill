@@ -6,7 +6,7 @@
 
 `digic-chip-stdlib` 是一套围绕数字芯片验证工作的标准化资产集合。
 
-它不是单一 demo，也不是只靠 prompt 工作的说明仓库，而是把数字验证中常见的模板、脚本、校验方法和流程文档沉淀下来，帮助使用者更快地启动和维护验证平台。
+它把数字验证中常见的模板、脚本、校验方法和流程文档沉淀下来，帮助使用者更快地启动和维护验证平台。
 
 主入口：`skills/rtl-remote-vcs-wave/SKILL.md`
 
@@ -42,42 +42,7 @@
 /plugin install digic-chip-skill@biquanha
 ```
 
-### Codex / 本地仓库方式使用
-直接进入仓库后，从主 skill 开始：
-```bash
-cd digic-chip-stdlib
-```
-
-然后阅读：
-```bash
-skills/rtl-remote-vcs-wave/SKILL.md
-```
-
-### 生成一个新模块 UVM 骨架
-```bash
-python3 skills/rtl-remote-vcs-wave/scripts/create_uvm_scaffold.py demo_fifo --module fifo_core --out /tmp/demo_fifo
-```
-
-### 校验当前 skill
-```bash
-python3 skills/rtl-remote-vcs-wave/scripts/validate_skill.py
-```
-
-### 校验生成后的工程
-```bash
-python3 skills/rtl-remote-vcs-wave/scripts/validate_skill.py --project /tmp/demo_fifo/demo_fifo
-```
-
-### 探测当前机器上的 EDA 工具
-轻量探测：
-```bash
-bash skills/rtl-remote-vcs-wave/scripts/probe_eda_tools.sh --skip-module-avail --output /tmp/eda_probe.txt
-```
-
-完整探测：
-```bash
-bash skills/rtl-remote-vcs-wave/scripts/probe_eda_tools.sh --output /tmp/eda_probe.txt
-```
+具体脚本、模板和执行步骤见主 skill 文档及其配套说明。
 
 ## 主要文档
 - 主 skill：`skills/rtl-remote-vcs-wave/SKILL.md`

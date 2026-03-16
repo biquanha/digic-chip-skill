@@ -24,3 +24,14 @@
 - lint/cdc：`SpyGlass`
 - 形式：`VC Formal` / `JasperGold`
 - 综合/等价/时序协同：`dc_shell` / `fm_shell` / `pt_shell`
+
+
+## 探测建议
+
+如果目标机器上的 `module avail` 很慢或会阻塞，优先使用轻量探测：
+
+```bash
+bash skills/rtl-remote-vcs-wave/scripts/probe_eda_tools.sh --skip-module-avail --output /tmp/eda_probe.txt
+```
+
+先用 `command -v` 拿到已安装命令，再按需补做 `module avail`。

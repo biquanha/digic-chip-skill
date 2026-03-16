@@ -40,3 +40,4 @@
 - UVM 骨架生成命令：`python3 skills/rtl-remote-vcs-wave/scripts/create_uvm_scaffold.py demo_fifo --module fifo_core --out /tmp/demo_fifo`
 
 - 企业级路线图：`docs/enterprise-uvm-roadmap.md`
+- 工具矩阵：`docs/eda-tool-matrix.md`

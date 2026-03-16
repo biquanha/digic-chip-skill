@@ -159,6 +159,7 @@ testbench 中应使用：
 - 回归与覆盖率收敛：`references/verification-flow/回归与覆盖率收敛.md`
 - 断言检查与协议验证：`references/verification-flow/断言检查与协议验证.md`
 - 平台交接与维护指南：`references/verification-flow/平台交接与维护指南.md`
+- eda01 工具盘点与扩展建议：`references/verification-flow/eda01工具盘点与扩展建议.md`
 
 ## 输出要求
 
@@ -300,3 +301,10 @@ agent 在执行时，应主动判断并说明：
 - 是否需要补 lint / CDC / formal / assertion / VIP
 - 是否已经具备交接给其他验证工程师维护的条件
 - 当前缺的是“工具流”还是“平台架构”还是“验证内容”
+
+
+## 工具可用性说明
+
+在不同工作机器或 EDA 节点上，工具可用性可能不同。
+对 `eda01`，当前已明确验证可用的是 `VCS`、`Verdi`、`fsdbreport`。
+对于 `SpyGlass`、`Formal`、`PrimeTime`、`DC/FM`、`xrun/questa` 等工具，agent 应先做现场探测，再决定是否纳入本次 flow。

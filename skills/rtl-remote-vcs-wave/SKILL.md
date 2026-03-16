@@ -154,6 +154,11 @@ testbench 中应使用：
 - RAL 接入规划：`references/verification-flow/RAL接入规划.md`
 - 真实项目接入示例：`references/verification-flow/真实项目接入示例.md`
 - 远端动态验收：`references/verification-flow/远端动态验收.md`
+- 企业级验证平台分层：`references/verification-flow/企业级验证平台分层.md`
+- EDA 工具链扩展：`references/verification-flow/EDA工具链扩展.md`
+- 回归与覆盖率收敛：`references/verification-flow/回归与覆盖率收敛.md`
+- 断言检查与协议验证：`references/verification-flow/断言检查与协议验证.md`
+- 平台交接与维护指南：`references/verification-flow/平台交接与维护指南.md`
 
 ## 输出要求
 
@@ -284,3 +289,14 @@ testbench 中应使用：
 优先读取：
 - `references/verification-flow/校验与验收机制.md`
 - `../../docs/skill-validation.md`
+
+
+## 企业级验证平台导向
+
+本 skill 的最终目标，不是生成一个教学用 demo，而是帮助用户为新模块构建可交接、可回归、可维护的企业级 UVM 验证平台。
+
+agent 在执行时，应主动判断并说明：
+- 当前平台处于 L1/L2/L3/L4/L5 哪个成熟度
+- 是否需要补 lint / CDC / formal / assertion / VIP
+- 是否已经具备交接给其他验证工程师维护的条件
+- 当前缺的是“工具流”还是“平台架构”还是“验证内容”

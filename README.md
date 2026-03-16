@@ -41,3 +41,5 @@
 
 - 企业级路线图：`docs/enterprise-uvm-roadmap.md`
 - 工具矩阵：`docs/eda-tool-matrix.md`
+
+- 工具探测脚本：`skills/rtl-remote-vcs-wave/scripts/probe_eda_tools.sh`

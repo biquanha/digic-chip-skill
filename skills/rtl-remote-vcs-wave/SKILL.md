@@ -160,6 +160,13 @@ testbench 中应使用：
 - 断言检查与协议验证：`references/verification-flow/断言检查与协议验证.md`
 - 平台交接与维护指南：`references/verification-flow/平台交接与维护指南.md`
 - eda01 工具盘点与扩展建议：`references/verification-flow/eda01工具盘点与扩展建议.md`
+- 工具探测与适配策略：`references/verification-flow/工具探测与适配策略.md`
+- urg 覆盖率流程：`references/verification-flow/urg覆盖率流程.md`
+- 分步编译流程：`references/verification-flow/分步编译流程.md`
+- SpyGlass 接入建议：`references/verification-flow/SpyGlass接入建议.md`
+- 形式验证接入建议：`references/verification-flow/形式验证接入建议.md`
+- 综合等价时序协同：`references/verification-flow/综合等价时序协同.md`
+- 多仿真器兼容策略：`references/verification-flow/多仿真器兼容策略.md`
 
 ## 输出要求
 

@@ -1,0 +1,10 @@
++incdir+../dut
++incdir+../tb/interfaces
++incdir+../tb/transaction
++incdir+../tb/driver
++incdir+../tb/monitor
++incdir+../tb/agent
++incdir+../tb/env
++incdir+../tb/test
+
+../dut/module_name.v

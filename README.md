@@ -57,23 +57,6 @@
 
 这些脚本已经包含在仓库里，但如果你是普通使用者，不需要先理解所有脚本细节，只需要从主 skill 和说明文档进入即可。
 
-## 推荐使用顺序
-
-### 如果你是第一次使用
-1. 先读：`skills/rtl-remote-vcs-wave/SKILL.md`
-2. 再看：`skills/rtl-remote-vcs-wave/assets/uvm-scaffold/README.md`
-3. 再看：`docs/skill-validation.md`
-
-### 如果你要做正式项目平台
-1. 先用主 skill 起平台
-2. 再看：`docs/enterprise-uvm-roadmap.md`
-3. 再看：`docs/eda-tool-matrix.md`
-
-### 如果你要接手别人项目
-1. 先读主 skill
-2. 再读校验说明
-3. 再看企业级路线图和工具矩阵
-
 ## 当前覆盖的核心能力
 
 - 新模块 UVM 骨架搭建

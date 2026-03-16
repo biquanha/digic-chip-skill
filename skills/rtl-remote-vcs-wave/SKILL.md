@@ -271,3 +271,14 @@ testbench 中应使用：
 - 是否需要日常回归列表
 
 若用户信息不完整，应先给出“第一版最小平台方案”，再说明后续扩展点。
+
+
+## 校验机制
+
+当用户要求直接交付模板或平台时，agent 应至少执行：
+- `python3 skills/rtl-remote-vcs-wave/scripts/validate_skill.py`
+- 如已生成工程，再执行：`python3 skills/rtl-remote-vcs-wave/scripts/validate_skill.py --project <project_dir>`
+
+优先读取：
+- `references/verification-flow/校验与验收机制.md`
+- `../../docs/skill-validation.md`

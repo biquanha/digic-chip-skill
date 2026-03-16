@@ -31,3 +31,10 @@
 
 当前插件内置章节：
 - `skills/rtl-remote-vcs-wave`
+
+
+## 校验
+
+- Skill 校验说明：`docs/skill-validation.md`
+- 静态校验命令：`python3 skills/rtl-remote-vcs-wave/scripts/validate_skill.py`
+- UVM 骨架生成命令：`python3 skills/rtl-remote-vcs-wave/scripts/create_uvm_scaffold.py demo_fifo --module fifo_core --out /tmp/demo_fifo`

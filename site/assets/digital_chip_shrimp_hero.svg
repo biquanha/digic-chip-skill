@@ -1,0 +1,71 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.55" stop-color="#132A4A"/>
+      <stop offset="1" stop-color="#1C6DD0"/>
+    </linearGradient>
+    <linearGradient id="card" x1="240" y1="170" x2="1360" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(255,255,255,0.16)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.06)"/>
+    </linearGradient>
+    <linearGradient id="shrimp" x1="920" y1="250" x2="1200" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9A62"/>
+      <stop offset="1" stop-color="#FF5F6D"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1600" height="900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <g opacity="0.35" filter="url(#blur)">
+    <circle cx="1350" cy="130" r="130" fill="#63B3FF"/>
+    <circle cx="1210" cy="760" r="160" fill="#4DE2C5"/>
+    <circle cx="280" cy="180" r="120" fill="#7C5CFF"/>
+  </g>
+
+  <rect x="140" y="110" width="1320" height="680" rx="36" fill="url(#card)" stroke="rgba(255,255,255,0.18)"/>
+
+  <text x="230" y="250" fill="#8BD3FF" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">DIGITAL CHIP R&amp;D SHRIMP</text>
+  <text x="230" y="340" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">数字芯片研发虾</text>
+  <text x="230" y="410" fill="#D9E7FF" font-family="Arial, Helvetica, sans-serif" font-size="30">覆盖数字芯片设计与验证全流程的研发协同平台</text>
+
+  <g opacity="0.95">
+    <rect x="230" y="490" width="180" height="56" rx="14" fill="#1E90FF"/>
+    <text x="275" y="526" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">全流程</text>
+    <rect x="430" y="490" width="180" height="56" rx="14" fill="#23C7A2"/>
+    <text x="475" y="526" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">高协同</text>
+    <rect x="630" y="490" width="180" height="56" rx="14" fill="#7B61FF"/>
+    <text x="675" y="526" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">可追踪</text>
+  </g>
+
+  <g transform="translate(930 235)">
+    <path d="M118 88C190 42 276 53 335 112C388 165 397 248 362 316C331 375 275 419 200 431C134 442 64 419 15 369C-31 321 -35 249 1 194C24 159 61 124 118 88Z" fill="url(#shrimp)" opacity="0.96"/>
+    <path d="M39 202C58 156 96 119 148 96C201 73 257 71 305 90" stroke="#FFD9C7" stroke-width="10" stroke-linecap="round"/>
+    <path d="M111 150C163 124 224 126 271 153" stroke="#FFF2E8" stroke-width="9" stroke-linecap="round"/>
+    <path d="M143 240C182 218 228 220 265 245" stroke="#FFF2E8" stroke-width="9" stroke-linecap="round"/>
+    <path d="M107 301C149 278 196 281 235 307" stroke="#FFF2E8" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="288" cy="184" r="13" fill="#10213F"/>
+    <circle cx="291" cy="181" r="4" fill="white"/>
+    <path d="M325 134C356 110 392 108 425 126" stroke="#FFB48B" stroke-width="7" stroke-linecap="round"/>
+    <path d="M334 157C376 137 414 143 447 170" stroke="#FFB48B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-8 284C-30 316 -53 335 -86 348" stroke="#FFC4A3" stroke-width="7" stroke-linecap="round"/>
+    <path d="M15 320C-10 356 -38 383 -75 399" stroke="#FFC4A3" stroke-width="7" stroke-linecap="round"/>
+    <path d="M58 355C34 393 7 422 -28 440" stroke="#FFC4A3" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.9">
+    <rect x="250" y="620" width="920" height="108" rx="24" fill="rgba(10,18,35,0.42)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="290" y="667" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">需求分析</text>
+    <text x="440" y="667" fill="#8BD3FF" font-family="Arial, Helvetica, sans-serif" font-size="26">→</text>
+    <text x="490" y="667" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">架构设计</text>
+    <text x="640" y="667" fill="#8BD3FF" font-family="Arial, Helvetica, sans-serif" font-size="26">→</text>
+    <text x="690" y="667" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">RTL开发</text>
+    <text x="820" y="667" fill="#8BD3FF" font-family="Arial, Helvetica, sans-serif" font-size="26">→</text>
+    <text x="870" y="667" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">仿真验证</text>
+    <text x="1010" y="667" fill="#8BD3FF" font-family="Arial, Helvetica, sans-serif" font-size="26">→</text>
+    <text x="1060" y="667" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">交付沉淀</text>
+  </g>
+</svg>

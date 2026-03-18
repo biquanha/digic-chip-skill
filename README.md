@@ -44,6 +44,9 @@
 
 具体脚本、模板和执行步骤见主 skill 文档及其配套说明。
 
+## 项目展示页
+- GitHub Pages 首页：启用 Pages 后可通过仓库 Pages 链接访问 `site/index.html`
+
 ## 主要文档
 - 主 skill：`skills/rtl-remote-vcs-wave/SKILL.md`
 - Skill 校验说明：`docs/skill-validation.md`

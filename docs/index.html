@@ -141,6 +141,33 @@
       text-align: center;
       font-weight: 700;
     }
+    .doc-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+    .doc-links {
+      display: grid;
+      gap: 10px;
+      margin-top: 16px;
+    }
+    .doc-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,0.10);
+      background: rgba(255,255,255,0.05);
+      color: var(--text);
+      font-weight: 700;
+    }
+    .doc-link span {
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 14px;
+    }
     .footer {
       padding: 34px 0 52px;
       color: var(--muted);
@@ -148,7 +175,7 @@
       font-size: 14px;
     }
     @media (max-width: 960px) {
-      .hero-card, .grid, .flow { grid-template-columns: 1fr; }
+      .hero-card, .grid, .flow, .doc-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -168,7 +195,7 @@
           </div>
           <div class="cta">
             <a class="btn primary" href="https://github.com/biquanha/digic-chip-skill" target="_blank" rel="noreferrer">查看 GitHub 仓库</a>
-            <a class="btn secondary" href="https://github.com/biquanha/digic-chip-skill/blob/main/README.md" target="_blank" rel="noreferrer">查看项目说明</a>
+            <a class="btn secondary" href="#materials">查看资料导航</a>
           </div>
         </div>
         <div class="hero-visual">
@@ -225,6 +252,31 @@
         <div class="card">
           <h3>更省</h3>
           <p>减少重复劳动和交接成本，让知识从个人经验升级为团队可复用资产。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="materials">
+      <h2>资料导航</h2>
+      <p class="section-lead">首页继续保留宣传页，同时把现有项目资料整理成统一入口，方便老板、客户、合作伙伴或团队成员快速查看项目能力、方法沉淀与使用方式。</p>
+      <div class="doc-grid">
+        <div class="card">
+          <h3>项目总览</h3>
+          <p>从仓库介绍、安装方式到主入口说明，适合第一次了解 digic-chip-stdlib 的访客。</p>
+          <div class="doc-links">
+            <a class="doc-link" href="https://github.com/biquanha/digic-chip-skill/blob/main/README.md" target="_blank" rel="noreferrer">README 项目说明 <span>仓库首页与使用概览</span></a>
+            <a class="doc-link" href="https://github.com/biquanha/digic-chip-skill/blob/main/docs/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md" target="_blank" rel="noreferrer">使用说明 <span>阅读顺序与入口建议</span></a>
+            <a class="doc-link" href="https://github.com/biquanha/digic-chip-skill/blob/main/skills/rtl-remote-vcs-wave/SKILL.md" target="_blank" rel="noreferrer">主 Skill 文档 <span>远端 RTL / VCS / FSDB 主技术入口</span></a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>宣传与能力资料</h3>
+          <p>聚焦验证平台路线、校验能力与工具矩阵，适合作为项目宣传材料、方案说明和能力展示入口。</p>
+          <div class="doc-links">
+            <a class="doc-link" href="https://github.com/biquanha/digic-chip-skill/blob/main/docs/enterprise-uvm-roadmap.md" target="_blank" rel="noreferrer">企业级路线图 <span>平台从最小闭环到企业级演进</span></a>
+            <a class="doc-link" href="https://github.com/biquanha/digic-chip-skill/blob/main/docs/skill-validation.md" target="_blank" rel="noreferrer">Skill 校验机制 <span>静态校验与动态验收口径</span></a>
+            <a class="doc-link" href="https://github.com/biquanha/digic-chip-skill/blob/main/docs/eda-tool-matrix.md" target="_blank" rel="noreferrer">EDA 工具矩阵 <span>仿真、波形、覆盖率与形式工具映射</span></a>
+          </div>
         </div>
       </div>
     </section>

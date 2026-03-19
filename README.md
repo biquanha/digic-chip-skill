@@ -45,7 +45,9 @@
 具体脚本、模板和执行步骤见主 skill 文档及其配套说明。
 
 ## 项目展示页
-- GitHub Pages 首页：在 GitHub Pages 中选择 `main` 分支和 `/docs` 目录后即可访问
+- GitHub Pages 首页：仓库启用 Pages 后即可访问站点首页
+- Pages 部署内容：`docs/index.html` 与 `docs/assets/`
+- 项目资料入口：主页已汇总 README、使用说明、Skill 校验、企业级路线图、EDA 工具矩阵与主 Skill 文档
 
 ## 主要文档
 - 主 skill：`skills/rtl-remote-vcs-wave/SKILL.md`

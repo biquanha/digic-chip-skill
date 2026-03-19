@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>数字芯片研发虾 · 封面海报</title>
+  <meta name="description" content="数字芯片研发虾项目封面海报与全流程能力地图。">
+  <style>
+    :root {
+      --bg: #07101f;
+      --bg2: #0f2038;
+      --card: rgba(255,255,255,0.08);
+      --text: #eaf2ff;
+      --muted: #b9c9e8;
+      --border: rgba(255,255,255,0.12);
+      --shadow: 0 24px 60px rgba(0,0,0,0.28);
+      --max: 1160px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      color: var(--text);
+      background: linear-gradient(135deg, var(--bg) 0%, var(--bg2) 45%, #174b8c 100%);
+      line-height: 1.7;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
+    .hero { padding: 44px 0 28px; }
+    .hero-card, .poster-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.10), rgba(255,255,255,0.05));
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+    }
+    .hero-card {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 24px;
+      align-items: center;
+    }
+    .eyebrow {
+      display: inline-block;
+      color: #8fd5ff;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      margin-bottom: 14px;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(32px, 4.5vw, 52px);
+      line-height: 1.15;
+    }
+    .lead {
+      margin: 0 0 20px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 18px;
+      border-radius: 14px;
+      font-weight: 700;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.08);
+    }
+    .btn.primary { background: linear-gradient(135deg, #1e90ff, #3d6dff); }
+    section { padding: 18px 0 24px; }
+    h2 {
+      margin: 0 0 14px;
+      font-size: 28px;
+    }
+    .section-lead {
+      margin: 0 0 20px;
+      color: var(--muted);
+    }
+    .poster-image {
+      width: 100%;
+      display: block;
+      border-radius: 22px;
+      border: 1px solid rgba(255,255,255,0.10);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.22);
+      background: rgba(255,255,255,0.04);
+    }
+    .poster-meta {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 20px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 20px;
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+    .card p {
+      margin: 0;
+      color: var(--muted);
+    }
+    .footer {
+      padding: 12px 0 48px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 14px;
+    }
+    @media (max-width: 960px) {
+      .hero-card, .poster-meta { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="hero-card">
+        <div>
+          <div class="eyebrow">Poster View</div>
+          <h1>数字芯片研发虾封面海报</h1>
+          <p class="lead">用于项目展示、方案引导与流程概览的独立页面，集中呈现数字芯片设计与验证全流程能力地图。</p>
+          <div class="cta">
+            <a class="btn primary" href="index.html">返回项目首页</a>
+            <a class="btn" href="assets/digital_chip_shrimp_poster.svg" target="_blank" rel="noreferrer">打开原始 SVG</a>
+          </div>
+        </div>
+        <div>
+          <img class="poster-image" src="assets/digital_chip_shrimp_poster.svg" alt="数字芯片研发虾封面海报">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="poster-card">
+        <h2>海报说明</h2>
+        <p class="section-lead">该页面保留大图展示效果，适合直接用于项目入口页、演示页或对外分享链接；同时与首页分离，避免主站首页信息过载。</p>
+        <div class="poster-meta">
+          <div class="card">
+            <h3>展示重点</h3>
+            <p>突出从需求分析到交付输出的完整研发链路，以及流程化、标准化和知识沉淀能力。</p>
+          </div>
+          <div class="card">
+            <h3>页面用途</h3>
+            <p>适合作为封面海报、流程总览页或项目介绍的视觉入口，便于单独传播与引用。</p>
+          </div>
+          <div class="card">
+            <h3>访问方式</h3>
+            <p>GitHub Pages 发布后，可通过站点首页进入，也可直接访问 <code>poster.html</code>。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      数字芯片研发虾 · Poster Page
+    </div>
+  </div>
+</body>
+</html>

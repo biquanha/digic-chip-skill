@@ -1,0 +1,112 @@
+<svg width="1200" height="1800" viewBox="0 0 1200 1800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="1800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.5" stop-color="#102A4D"/>
+      <stop offset="1" stop-color="#0D6EFD"/>
+    </linearGradient>
+    <linearGradient id="title" x1="118" y1="123" x2="726" y2="438" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8FE7FF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="node" x1="190" y1="0" x2="1010" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1CD8D2"/>
+      <stop offset="1" stop-color="#7A5FFF"/>
+    </linearGradient>
+    <linearGradient id="node2" x1="190" y1="0" x2="1010" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4CC9F0"/>
+      <stop offset="1" stop-color="#4361EE"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="1800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#04101F" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1800" fill="url(#bg)"/>
+
+  <circle cx="1025" cy="170" r="140" fill="#2AD0FF" opacity="0.18"/>
+  <circle cx="170" cy="1560" r="180" fill="#7B61FF" opacity="0.18"/>
+  <circle cx="1060" cy="1460" r="220" fill="#32E6B7" opacity="0.12"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="70" width="1056" height="1660" rx="40" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)"/>
+  </g>
+
+  <text x="120" y="150" fill="#7FE3FF" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">PROJECT POSTER</text>
+  <text x="120" y="245" fill="url(#title)" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700">数字芯片研发虾</text>
+  <text x="120" y="325" fill="#E8F2FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">数字芯片设计与验证全流程项目海报</text>
+  <text x="120" y="390" fill="#C8D8F0" font-family="Arial, Helvetica, sans-serif" font-size="26">覆盖从需求分析到交付输出的完整研发链路，适合网页展示。</text>
+
+  <rect x="120" y="450" width="300" height="60" rx="18" fill="#13A8FF"/>
+  <text x="172" y="490" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">全流程能力地图</text>
+
+  <line x1="600" y1="580" x2="600" y2="1520" stroke="rgba(255,255,255,0.25)" stroke-width="8" stroke-linecap="round"/>
+
+  <g>
+    <rect x="190" y="560" width="820" height="92" rx="24" fill="url(#node)"/>
+    <circle cx="245" cy="606" r="24" fill="white" fill-opacity="0.18"/>
+    <text x="236" y="614" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">1</text>
+    <text x="300" y="618" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">需求分析</text>
+    <text x="685" y="618" fill="#E9F8FF" font-family="Arial, Helvetica, sans-serif" font-size="22">明确目标、边界与业务场景</text>
+  </g>
+
+  <g>
+    <rect x="190" y="678" width="820" height="92" rx="24" fill="url(#node2)"/>
+    <circle cx="245" cy="724" r="24" fill="white" fill-opacity="0.18"/>
+    <text x="236" y="732" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">2</text>
+    <text x="300" y="736" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">规格拆解</text>
+    <text x="685" y="736" fill="#E9F8FF" font-family="Arial, Helvetica, sans-serif" font-size="22">形成模块级、接口级可执行规格</text>
+  </g>
+
+  <g>
+    <rect x="190" y="796" width="820" height="92" rx="24" fill="url(#node)"/>
+    <circle cx="245" cy="842" r="24" fill="white" fill-opacity="0.18"/>
+    <text x="236" y="850" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">3</text>
+    <text x="300" y="854" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">架构设计</text>
+    <text x="685" y="854" fill="#E9F8FF" font-family="Arial, Helvetica, sans-serif" font-size="22">完成模块划分、时序与数据通路规划</text>
+  </g>
+
+  <g>
+    <rect x="190" y="914" width="820" height="92" rx="24" fill="url(#node2)"/>
+    <circle cx="245" cy="960" r="24" fill="white" fill-opacity="0.18"/>
+    <text x="236" y="968" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">4</text>
+    <text x="300" y="972" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">RTL 开发</text>
+    <text x="685" y="972" fill="#E9F8FF" font-family="Arial, Helvetica, sans-serif" font-size="22">实现可综合 RTL 与编码规范检查</text>
+  </g>
+
+  <g>
+    <rect x="190" y="1032" width="820" height="110" rx="24" fill="url(#node)"/>
+    <circle cx="245" cy="1087" r="24" fill="white" fill-opacity="0.18"/>
+    <text x="236" y="1095" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">5</text>
+    <text x="300" y="1080" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">仿真验证 / 形式验证</text>
+    <text x="300" y="1116" fill="#E9F8FF" font-family="Arial, Helvetica, sans-serif" font-size="22">验证功能正确性与边界条件，补强关键场景覆盖</text>
+  </g>
+
+  <g>
+    <rect x="190" y="1168" width="820" height="110" rx="24" fill="url(#node2)"/>
+    <circle cx="245" cy="1223" r="24" fill="white" fill-opacity="0.18"/>
+    <text x="236" y="1231" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">6</text>
+    <text x="300" y="1216" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">覆盖率分析 / 回归管理</text>
+    <text x="300" y="1252" fill="#E9F8FF" font-family="Arial, Helvetica, sans-serif" font-size="22">量化验证质量，稳定推进自动化回归与结果汇总</text>
+  </g>
+
+  <g>
+    <rect x="190" y="1304" width="820" height="110" rx="24" fill="url(#node)"/>
+    <circle cx="245" cy="1359" r="24" fill="white" fill-opacity="0.18"/>
+    <text x="236" y="1367" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">7</text>
+    <text x="300" y="1352" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">综合实现 / 时序协同</text>
+    <text x="300" y="1388" fill="#E9F8FF" font-family="Arial, Helvetica, sans-serif" font-size="22">衔接实现环节，关注面积、功耗、时序与约束闭环</text>
+  </g>
+
+  <g>
+    <rect x="190" y="1440" width="820" height="126" rx="24" fill="url(#node2)"/>
+    <circle cx="245" cy="1503" r="24" fill="white" fill-opacity="0.18"/>
+    <text x="236" y="1511" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">8</text>
+    <text x="300" y="1490" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">问题闭环 / 经验沉淀 / 交付输出</text>
+    <text x="300" y="1528" fill="#E9F8FF" font-family="Arial, Helvetica, sans-serif" font-size="22">形成问题追踪、知识资产与项目交付文档，支撑团队持续复用</text>
+  </g>
+
+  <rect x="120" y="1618" width="960" height="72" rx="22" fill="rgba(9,18,34,0.42)" stroke="rgba(255,255,255,0.16)"/>
+  <text x="155" y="1662" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">特点：</text>
+  <text x="260" y="1662" fill="#CDE6FF" font-family="Arial, Helvetica, sans-serif" font-size="28">覆盖数字芯片设计验证全流程，支持协同、自动化、可追踪和知识沉淀</text>
+</svg>
